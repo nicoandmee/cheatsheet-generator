@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
-    "build": "webpack && node ./scripts/build.js"
+    "build": "webpack && bun run ./scripts/build.js"
   },
   "devDependencies": {
     "sanitize-filename": "^1.6.3",
